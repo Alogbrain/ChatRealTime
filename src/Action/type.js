@@ -1,0 +1,6 @@
+export const INCREASE ='increase'
+export const DECREASE ='decrease'
+export const LOGIN = 'login'
+export const LOGOUT = 'logout'
+export const UPDATECUSTOMERS = 'updatecustomers'
+export const SHOWCHATFORM = 'showchatform'

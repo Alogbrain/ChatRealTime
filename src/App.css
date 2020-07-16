@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block; 
+  clear: both;
+}
+.logo{
+  height :200%;
+  padding-left: 15px;
+  float: left;
+  height: 80px;
+  background-color: white;
+}
+.title{
+  height: 80px;
+  background-color: white;
+  color: #3ea4cc;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
